@@ -19,7 +19,7 @@ public class StudentController {
     public String insert(@RequestBody Student student){
 
         studentRepository.save(student);
-        return "執行資料庫的Create操作";
+        return "執行資料庫的Create操作>";
     }
 
     @PutMapping("/students/{studentId}")
